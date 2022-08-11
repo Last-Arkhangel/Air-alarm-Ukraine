@@ -18,6 +18,7 @@ pip install -r requirements.txt
 При повітряній тривозі сирена лунає 134 секнд
 При закінченні повітряної тривогі сирена лунає 89 секунд
 О 9:00 лунає хвилина мовчання та гімн України
+
 ![Image alt](https://github.com/Last-Arkhangel/Air-alarm-Ukraine/blob/main/program.JPG)
 
 ## Про роботу програми
