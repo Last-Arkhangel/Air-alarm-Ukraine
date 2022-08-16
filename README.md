@@ -24,13 +24,9 @@ pip install -r requirements.txt
 ## Про роботу програми
 Інформація про сигнал повітряної тривоги даною програмою береться із сайту [https://alarmmap.online/](https://alarmmap.online/)
 
-## Щоб створити файл exe, використовуйте:
+## Щоб створити файл exe, використовуйте команду pyinstaller:
 ```
-pip install pyinstaller
-```
-з командою:
-```
-pyinstaller -F -w --icon=airalarm.ico --add-data="airalarm.ico;." airalarm.py
+pyinstaller -F -w -n "Повітряна тривога" -i airalarm.ico --add-data="airalarm.ico;." airalarm.py
 ```
 
 Оригінальний репозиторій:
