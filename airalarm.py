@@ -7,6 +7,9 @@ import pygame
 from PIL import Image
 from pystray import MenuItem
 import pystray
+from Socket_Singleton import Socket_Singleton
+
+Socket_Singleton()
 
 def ComboChange(event):
     global city
