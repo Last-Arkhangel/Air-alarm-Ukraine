@@ -3,3 +3,5 @@ pygame
 requests
 tkinter
 pillow
+socket-singleton
+pyinstaller
